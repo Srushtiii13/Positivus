@@ -134,12 +134,14 @@
 
 .gray{
     background-color: #F3F3F3;
+    
 }
 .gray h1{
     background-color: #B9FF66;
 }
 .green{
     background-color: #B9FF66;
+
 }
 .green h1{
     background-color: white;
@@ -156,12 +158,12 @@
 .card .heading{
     display: flex;
     flex-direction: column;
-     justify-content: space-between; 
+    justify-content: space-between;
 }
 .card .heading h1{
-    max-width: 221px;
+    width: 221px;
     height: 76px;
-   
+    display: inline-block;
     
 }
 .card .heading p{
