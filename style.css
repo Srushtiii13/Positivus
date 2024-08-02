@@ -134,16 +134,12 @@
 
 .gray{
     background-color: #F3F3F3;
-    
 }
 .gray h1{
     background-color: #B9FF66;
-    border-radius: 10px;
-
 }
 .green{
     background-color: #B9FF66;
-
 }
 .green h1{
     background-color: white;
@@ -187,8 +183,12 @@
     gap: 15px;
     
 }
+/* .heading h1{
+    display: inline-block;
+} */
 .card .img-container{
     align-items: center;
     justify-content: center;
-    padding: 40px auto;
+    margin: auto;
+    height: 170px;
 }
