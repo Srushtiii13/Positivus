@@ -131,41 +131,15 @@
     border: 1px solid black;
     box-shadow: 0px 7px 0px rgba(0, 0, 0, 5);
 }
-
-.gray{
-    background-color: #F3F3F3;
-    
-}
-.gray h1{
-    background-color: #B9FF66;
-    border-radius: 10px;
-
-}
-.green{
-    background-color: #B9FF66;
-
-}
-.green h1{
-    background-color: white;
-    
-}
-.black{
-    background-color: #000000;
-}
-.black h1{
-    display: inline-block;
-    background-color: white;
-}
-
 .card .heading{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+     justify-content: space-between; 
 }
 .card .heading h1{
-    width: 221px;
+    max-width: 221px;
     height: 76px;
-    display: inline-block;
+   
     
 }
 .card .heading p{
@@ -177,6 +151,50 @@
     text-decoration: none;
     justify-content: center;
 }
+
+span{
+    display: inline-block;
+    margin: 0.3px;
+}
+
+.gray{
+    background-color: #F3F3F3;
+    
+}
+.gray .head{
+    font-size:xx-large;
+    font-weight: 800;
+    padding: 4px;
+    background-color: #B9FF66;
+    border-radius: 10px;
+}
+
+.green{
+    background-color: #B9FF66;
+
+}
+.green .head{
+    font-size:xx-large;
+    font-weight: 800;
+    padding: 3px;
+    margin: 0.3px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.black{
+    background-color: #000000;
+}
+.black .head{
+    font-size:xx-large;
+    font-weight: 800;
+    padding: 3px;
+    margin: 0.3px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
 .black a{
     color: white;
     text-decoration: none;
